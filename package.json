@@ -1,0 +1,23 @@
+{
+  "name": "lx-ui-j",
+  "version": "0.1.4",
+  "description": "",
+  "main": "./dist/library.js",
+  "files": [
+    "dist/library.js"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "pub2": "npm version patch && npm publish",
+    "pub": "npm publish"
+  },
+  "author": "",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "license": "MIT"
+}
